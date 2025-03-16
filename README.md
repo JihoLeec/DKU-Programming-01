@@ -1,2 +1,2 @@
 # DKU-Programming-01
-programmingLecture
+programming Lecture (By 김하연 prof)
