@@ -18,7 +18,7 @@ public class DeepArray03 {
          */
         System.out.println(arr1[0]==arr2[0]);   // 그래서 주소를 비교하면 true가 나온다.
         // -> 깊은 복사는 값 그 자체를 복사하는 것. 얕은 복사는 주소를 복사하는 것.
-        // 깊은 복사를 하려면 무조건 for문으로 직접 복사하는 방법밖에 없다.
+        // 2차원 배열에서 깊은 복사를 하려면 무조건 반복문으로 직접 복사하는 방법밖에 없다.
         for (int i = 0; i < arr1.length; i++) {
             arr2[i] = Arrays.copyOf(arr1[i], arr1[i].length);
         }

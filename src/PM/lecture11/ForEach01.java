@@ -5,7 +5,8 @@ public class ForEach01 {
         int[] numbers = {1,2,3,4,5};
         int[][] matrix = {{1,2,3},{4,5,6}};
         // 장점: 훨씬 간결하고 인덱스 계산 오류 방지.
-        // 단점: 인덱스 접근을 못해 값 수정이 불가능한 읽기 전용.
+        // 단점: 인덱스 접근을 못해 값 수정이 불가능한 읽기 전용. 역순 출력도 안됨
+        //      그래서 아래 number에 무슨 연산을 해도 값 변경이 되지 않음
         for(int number : numbers) {
             System.out.println(number);
         }
