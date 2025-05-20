@@ -8,5 +8,6 @@ public class Class01 {
         Car carRambo = new Car("Blue","Rambo",0);
         carRambo.accelerate();
         System.out.println(carBMW.color+" "+carRambo.color);
+
     }
 }
